@@ -1,0 +1,17 @@
+:root {
+  --padding-controls: 10px;
+}
+
+.controls {
+  display: inline-block;
+  padding: 0 var(--padding-controls);
+
+  button {
+    display: block;
+    width: 100%;
+
+    &.active {
+      background: greenyellow;
+    } 
+  }
+}

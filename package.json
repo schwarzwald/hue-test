@@ -1,0 +1,17 @@
+{
+  "name": "HueTestApp",
+  "version": "1.0.0",
+  "description": "Hue test app",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "sass": "node-sass --watch src/resources/scss -o src/resources/css"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.6",
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0"
+  },
+  "author": "schwarzwald",
+  "license": "ISC"
+}
